@@ -1,15 +1,27 @@
 {
-  "name": "angular-seed",
+  "name": "Formula 1 Feeder",
   "description": "A starter project for AngularJS",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "homepage": "https://github.com/ajhorus/f1-feeder-part1",
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "angular": "1.2.x",
     "angular-route": "1.2.x",
     "angular-loader": "1.2.x",
     "angular-mocks": "~1.2.x",
-    "html5-boilerplate": "~4.3.0"
-  }
+    "html5-boilerplate": "~4.3.0",
+    "angular-ui-bootstrap": "~0.11.0"
+  },
+  "authors": [
+    "Nestor Martinez <nestor.martinez@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
 }
