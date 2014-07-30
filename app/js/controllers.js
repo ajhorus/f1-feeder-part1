@@ -20,6 +20,10 @@ controller('driversController', function($scope, ergastAPIservice) {
         $scope.driversList = response.MRData.StandingsTable.StandingsLists[0].DriverStandings;
     });
 }).
+/*Dropbox controller */
+controller('dropboxController', function($scope, dropboxService) {
+    $scope.dropboxConnection = "no result";
+}).
 /* Driver controller */
 controller('driverController', function($scope, $routeParams, ergastAPIservice) {
 	$scope.id = $routeParams.id;

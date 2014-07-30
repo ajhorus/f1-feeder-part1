@@ -35,4 +35,12 @@ angular.module('myApp.services', []).
     }
 
     return ergastAPI;
+  }).
+  factory('dropboxService', function($http) {
+     var dropboxApi = {};
+
+     dropbox.connect = function() {
+
+     }
+     
   });
