@@ -39,8 +39,8 @@ angular.module('myApp.services', []).
   factory('dropboxService', function($http) {
      var dropboxApi = {};
 
-     dropbox.connect = function() {
+    // dropbox.connect = function() {
 
-     }
+    // }
      
   });

@@ -23,6 +23,11 @@ controller('driversController', function($scope, ergastAPIservice) {
 /*Dropbox controller */
 controller('dropboxController', function($scope, dropboxService) {
     $scope.dropboxConnection = "no result";
+    
+    $scope.dropboxEvnt = {};
+    $scope.dropboxEvnt.connect = function() {
+        alert("here");
+    }
 }).
 /* Driver controller */
 controller('driverController', function($scope, $routeParams, ergastAPIservice) {
